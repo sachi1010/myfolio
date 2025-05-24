@@ -1,0 +1,71 @@
+
+/* Navbar Base */
+.navbar {
+  background-color: transparent!important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand Logo */
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 30PX;
+  color: #00d0ff !important;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-left: 16px;
+  font-weight: 500;
+  color: rgb(11, 189, 243) !important;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff4500 !important;
+  transform: scale(1.05);
+}
+
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-left: auto; 
+    margin-left: 600px;
+  }
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+  }
+}
+
+
+.navbar-toggler {
+  border: none; 
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out; 
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.navbar-toggler-icon {
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  filter: invert(100%); 
+}

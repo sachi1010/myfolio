@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+    width: 100%;
+    background-image: url(./images/bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

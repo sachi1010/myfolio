@@ -1,0 +1,83 @@
+.profile-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile-left{
+    color: white;
+    text-align: center;
+}
+
+.profile-left h1{
+    text-transform: uppercase;
+}
+
+.profile-left #myname{
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow:1px 1px 4px aqua ;
+    letter-spacing: 1px;
+}
+
+.profile-left .social-links{
+    margin: 10px;
+}
+
+.profile-left .social-links a{
+    margin: 10px;
+    font-size: 24px;
+}
+
+.profile-left .bi-whatsapp {
+    color: #05f35c;
+}
+
+.profile-left .bi-linkedin {
+    color: #0480fc;
+}
+
+.profile-left .bi-facebook {
+    color: #3b05fc;
+}
+
+.profile-left .bi-github {
+    color: #f505cd;
+}
+.profile-left #role{
+    color: aqua;
+}
+
+.profile-left button{
+    margin: 10px;
+}
+
+.profile-left #Contactme{
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-left #Resume{
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Profile-right{
+    background-image: url(./images/imagebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
