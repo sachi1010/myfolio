@@ -1,0 +1,137 @@
+.skills-chart-container {
+  padding: 60px 40px;
+  background-color: #09101a;
+  
+  min-height: 100vh;
+}
+
+.skills-chart-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #00ff95;
+}
+
+.skills-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+
+.skills-column {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+ 
+}
+
+.skill-bar {
+  width: 100%;
+   background-color:#151c25;
+   height: 80px;
+   text-align: center;
+   padding: 10px;
+   border-radius: 8px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 900;
+  color: white;
+}
+
+.bar-background {
+  /* background-color: #e0e0e0; */
+  height: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #48f2ab, #00ff95,#019155);
+  border-radius: 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+
+
+
+
+.education-section {
+  margin-top: 20px;
+  color: #fff;
+
+}
+
+.education-grid {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.education-box {
+  /* background-color: #0d0d0d; */
+  padding: 25px;
+  border-radius: 10px;
+  flex: 1 1 calc(50% - 30px); 
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  min-width: 150px;
+ 
+}
+
+
+
+.edu-year {
+  border: 1px solid #00ffcc;
+  display: inline-block;
+  padding: 6px 14px;
+  color: #00ffcc;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.edu-degree {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.edu-institution {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.edu-description {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+
+
+@media (max-width: 768px) {
+  .education-box {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+

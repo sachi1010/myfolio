@@ -1,0 +1,82 @@
+
+/* About.css */
+.about-section {
+  color: white;
+  padding: 80px 20px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-subtitle {
+  color: #00ff95;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.about-description {
+  border-left: 3px solid #444;
+  padding-left: 16px;
+  color:cyan;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  max-width: 600px;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #00ff95;
+  color: black;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #00e684;
+}
+.bi-download{
+    font-weight: bold;
+    font-size: 20px;
+}
+.about-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-top: 20px solid #00ff95;
+  border-right: 20px solid #00ff95;
+  overflow: hidden;
+  max-width: 300px;
+  height: auto;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
