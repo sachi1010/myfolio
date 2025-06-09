@@ -11,7 +11,7 @@ const Home = () => {
 
 
   return (
-    <div className='bg'>
+    <div className='bg' id='home'>
       <div className='profile-content'>
         <div className='profile-left' data-aos="fade-right">
           <h1>hello!!!</h1>

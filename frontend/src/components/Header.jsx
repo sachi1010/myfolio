@@ -6,7 +6,7 @@ export const Header = () => {
     
 
     return (
-        <div data-aos="fade-down" className='sticky-top'>
+        <div  className='sticky-top' >
             <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm sticky-top">
                 <div className="container-fluid">
                     <span className="navbar-brand fw-bold">Sachithananthan</span>

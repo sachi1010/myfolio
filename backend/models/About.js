@@ -1,9 +1,14 @@
 const mongoose = require('mongoose');
 
 const aboutSchema = new mongoose.Schema({
- 
-  title: {type:String},
-  description: {type:String},
+  title: {
+    type: String,
+    required: true
+  },
+  description: {
+    type: String,
+    required: true
+  }
 });
 
 module.exports = mongoose.model('About', aboutSchema);
