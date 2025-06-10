@@ -16,7 +16,6 @@ export const Footer = () => {
                     </a>
                 </div>
 
-
                 {/* Links */}
                 <div className="footer-section">
                     <h3 className="footer-subtitle">Quick Links</h3>

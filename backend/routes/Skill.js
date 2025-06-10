@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Skill = require('../models/Skill');
 require('../models/db')
+
 router.get('/', async (req, res) => {
   try {
     const skills = await Skill.find();
